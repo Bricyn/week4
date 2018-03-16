@@ -5,7 +5,7 @@ HELLO_WORLD_STATEMENT=${HELLO_WORLD_STATEMENT:='Default'}
 PATH="$PATH:/usr/games"
 export PATH
 
-fortune | cowsay -f flamming-sheep 
+fortune | cowsay -f flaming-sheep 
  
 cowsay $HELLO_WORLD_STATEMENT
 
