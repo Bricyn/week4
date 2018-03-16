@@ -2,7 +2,11 @@
 
 HELLO_WORLD_STATEMENT=${HELLO_WORLD_STATEMENT:='Default'}
 
-echo "You said: " 
-echo $HELLO_WORLD_STATEMENT
+PATH="$PATH:/usr/games"
+export PATH
+
+fortune | cowsay -f flamming-sheep 
+ 
+cowsay $HELLO_WORLD_STATEMENT
 
 rm -- "$0" && exit 0
